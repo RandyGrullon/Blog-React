@@ -23,7 +23,7 @@ nav {
 
 .nav--logo_text {
     margin-right: auto;
-    color: #61DAFB;
+    color: #21ff03;
     font-weight: 700;
     font-size: 22px;
 }
@@ -61,5 +61,5 @@ main {
 
 .main--facts > li::marker {
     font-size: 1.4rem;
-    color: #61DAFB;
+    color: #21ff03;
 }
