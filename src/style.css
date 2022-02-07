@@ -4,62 +4,82 @@
 
 body {
     margin: 0;
-    font-family: Inter, sans-serif;
     height: 100vh;
+    font-family: Bebas, cursive;
     background-color: #282D35;
 }
-
-nav {
+/*NavBar*/
+.nav--container {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #21222A;
     height: 90px;
     padding: 30px 25px;
+    
 }
 
-.nav--logo_text, .nav--title {
-    margin: 0;
+.nav--text{
+    text-decoration: none;
+    font-size:24px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    color: #fff;
+}    
+
+.nav--items {
+    text-decoration: none;
+    display: inline;
+    margin: 10px;
+    
+}
+.nav--list{
+    margin: 0px;
+    padding: 0px;
 }
 
-.nav--logo_text {
-    margin-right: auto;
-    color: #21ff03;
-    font-weight: 700;
-    font-size: 22px;
+.nav--text:hover{
+    color: #e0ba1f;
 }
 
-.nav--title {
-    color: #DEEBF8;
-    font-weight: 600;
-}
 
-.nav--icon {
-    height: 30px;
-    margin-right: 7px;
-}
+/*Main*/
 
 main {
-    padding: 57px 27px;
+    padding: 60px 100px;
+    width:100%;
     color: white;
+    
 }
+
+
+
 
 .main--title {
     margin: 0;
+    display:flex;
     font-size: 39px;
-    letter-spacing: -0.05em;
+    justify-content: center;
 }
 
-.main--facts {
-    margin-top: 46px;
-    max-width: 400px;
+.main--container {
+    display: flex;
+    justify-content:center;
 }
 
-.main--facts > li {
-    line-height: 19px;
-    padding-block: 10px;
+.main--icon{
+    width:350px;
+    display: flex;
+    margin:0px;
+    padding: 0px;
 }
 
-.main--facts > li::marker {
-    font-size: 1.4rem;
-    color: #21ff03;
+.main--text {
+    display: flex;
+    margin-top: 50px;
+    padding: 0px;
+    max-width:450px;
+    
+    
 }
+

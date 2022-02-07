@@ -1,12 +1,23 @@
 import React from "react"
-import logo from "../images/react-logo.png"
+import logo from "../images/logo-3.png"
 
 export default function Navbar() {
     return (
-        <nav>
-            <img src={logo} className="nav--icon" />
-            <h3 className="nav--logo_text">ReactFacts</h3>
-            <h4 className="nav--title">React Course - Project 1</h4>
+        <nav className="nav--container">
+            <ul className="nav--list">
+                <a className="nav--text" href="#">
+                    <li className="nav--items">Inicio</li>
+                </a>
+                <a className="nav--text" href="#">
+                    <li className="nav--items">Calculadora</li>
+                </a>
+                <a className="nav--text" href="#">
+                    <li className="nav--items">Presidente</li>
+                </a>
+                <a className="nav--text" href="#">
+                    <li className="nav--items">Diario</li>
+                </a>
+            </ul>
         </nav>
     )
 }

@@ -1,16 +1,26 @@
 import React from "react"
+import logo from "../images/logo-4.png"
 
 export default function Main() {
     return (
-        <main>
-            <h1 className="main--title">Fun facts about React</h1>
-            <ul className="main--facts">
-                <li>Was first released in 2013</li>
-                <li>Was originally created by Jordan Walke</li>
-                <li>Has well over 100K stars on GitHub</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
-            </ul>
+        <main className="container">
+            <h1 className="main--title">Desarrollo Web</h1>
+            <div className="main--container">
+            <img src={logo} className="main--icon" />
+                
+                <p className="main--text">
+                    Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a 
+                    type specimen book. It has survived not only five centuries, 
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged. It was popularised in the 1960s with 
+                    the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus 
+                    PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
         </main>
     )
 }   
