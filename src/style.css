@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,7 +7,7 @@
 body {
     margin: 0;
     height: 100vh;
-    font-family: Bebas, cursive;
+    font-family: 'Lato', cursive;
     background-color: #282D35;
 }
 /*NavBar*/
@@ -51,9 +53,6 @@ main {
     color: white;
     
 }
-
-
-
 
 .main--title {
     margin: 0;
