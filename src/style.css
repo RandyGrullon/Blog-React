@@ -17,6 +17,8 @@ body {
     justify-content: center;
     background-color: #21222A;
     height: 90px;
+    color: #fff;
+    text-decoration: none;
     padding: 30px 25px;
     
 }
@@ -64,6 +66,7 @@ main {
 .main--container {
     display: flex;
     justify-content:center;
+    
 }
 
 .main--icon{

@@ -1,22 +1,38 @@
 import React from "react"
+import {BrowserRouter as Router, Routes, Route, NavLink, Link  } from "react-router-dom";
+
+const nelson = () =>{
+    
+}
+
 
 export default function Navbar() {
     return (
+        
         <nav className="nav--container">
             <ul className="nav--list">
-                <a className="nav--text" href="">
+                
+                <Link className="nav--text" 
+                to="/">
                     <li className="nav--items">Home</li>
-                </a>
-                <a className="nav--text" href="#">
+                    </Link>
+
+                <Link className="nav--text" 
+                to="/Calculadora">
                     <li className="nav--items">Calculadora</li>
-                </a>
-                <a className="nav--text" href="#">
+                    </Link>
+
+                <Link className="nav--text" 
+                to="/Presidente">
                     <li className="nav--items">Presidente</li>
-                </a>
-                <a className="nav--text" href="#">
+                    </Link>
+
+                <Link className="nav--text" 
+                to="/DiarioRef">
                     <li className="nav--items">Diario</li>
-                </a>
+                    </Link>
+               
             </ul>
         </nav>
     )
-}
+} 
