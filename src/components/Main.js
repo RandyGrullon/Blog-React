@@ -2,13 +2,14 @@ import React from "react"
 import logo from "../images/logo-4.png"
 
 export default function Main() {
+    
     return (
-        <main className="container">
-            <h1 className="main--title">Desarrollo Web</h1>
-            <div className="main--container">
-            <img src={logo} className="main--icon" />
+        <main className="container--main">
+            <h1 className="main--title--main">Desarrollo Web</h1>
+            <div className="main--container--main">
+            <img src={logo} className="main--icon--main" />
                 
-                <p className="main--text">
+                <p className="main--text--main">
                     Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the industry's 
                     standard dummy text ever since the 1500s, when an unknown 

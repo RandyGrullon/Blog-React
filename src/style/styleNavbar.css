@@ -47,41 +47,13 @@ body {
 }
 
 
-/*Main*/
-
-main {
-    padding: 60px 100px;
-    width:100%;
-    color: white;
-    
-}
-
-.main--title {
-    margin: 0;
-    display:flex;
-    font-size: 39px;
-    justify-content: center;
-}
-
-.main--container {
-    display: flex;
-    justify-content:center;
-    
-}
-
-.main--icon{
-    width:350px;
-    display: flex;
-    margin:0px;
-    padding: 0px;
-}
-
-.main--text {
-    display: flex;
-    margin-top: 50px;
-    padding: 0px;
-    max-width:450px;
+@media (max-width:900px) {
+    .nav--container{
+        display: block;
+    }
     
     
+    
+
 }
 

@@ -1,9 +1,7 @@
 import React from "react"
 import {BrowserRouter as Router, Routes, Route, NavLink, Link  } from "react-router-dom";
 
-const nelson = () =>{
-    
-}
+
 
 
 export default function Navbar() {

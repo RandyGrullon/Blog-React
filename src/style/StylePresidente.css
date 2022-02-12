@@ -1,0 +1,38 @@
+.main--container--presidente{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 35vh auto 0 auto;
+}
+.main--tittle_presidente{
+    padding: 20px;
+    color: #fff;
+    vertical-align: top;
+}
+.main--button--presidente{
+    text-decoration: none;
+}
+
+.main--text{
+    background-color: #e0ba1f;
+    padding: 10px;
+    
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    margin: 10px;
+}
+
+.main--input--presidente{
+    border: none;
+    margin: 10px;
+    display: inline;
+text-align: center;
+  border-bottom: 2px solid red;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}

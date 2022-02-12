@@ -1,0 +1,67 @@
+/*Main*/
+
+main {
+    padding: 60px 100px;
+    width:100%;
+}
+
+.main--title--main{
+    margin: 0;
+    display:flex;
+    font-size: 39px;
+    color: white;
+    justify-content: center;
+}
+
+.main--container--main {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.main--icon--main{
+    width:350px;
+    display: flex;
+    margin:0px;
+    padding: 0px;
+}
+
+.main--text--main {
+    display: flex;
+    margin-top: 50px;
+    padding: 0px;
+    color: white;
+    max-width:450px;
+    
+    
+}
+
+@media (max-width:900px) {
+    .main--container--main{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .main--text--main, .main--icon--main{
+        width: 100%;
+        
+    }
+    
+     
+
+}
+
+@media (max-width:500px) {
+   
+    
+    .main--text--main, .main--icon--main{
+        width: 100%;   
+        
+    }
+    
+     
+
+}
+
+
