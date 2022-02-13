@@ -1,20 +1,23 @@
 import React from 'react'
 
-const Presidente = () => {
+
+function Presidente(){
   function pressed(){
     let age;
     age = Number(document.getElementById("age").value);
+    
     if(age <= 17)
     {
         
-       alert("You are not an adult");
+      return alert("You are not an adult");
     }
-    else
-    {
+   
        window.location.href = "https://www.presidente.com.do/";
-    }
+    
   }
-  return (
+ 
+    return (
+   
     <div class="main--container--presidente">
     <h2 class="main--tittle_presidente">Escribe tu edad</h2>
     <input type="text" 
@@ -22,15 +25,12 @@ const Presidente = () => {
           name="age" 
           placeholder="Edad" 
           id="age"/>
-
-    <button class="main--text" 
-            onclick="pressed()">
-              Press me
-    </button>
+ 
+      <button onClick={() => pressed()} className="main--text">Press Me</button>
+   
 </div>
 
   )
   
 }
-
 export default Presidente
