@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Calculadora() {
-let display = document.getElementById('display-calc');
+    let display = document.getElementById('display-calc');
 
 let buttons = Array.from(document.getElementsByClassName('button-calc'));
 
